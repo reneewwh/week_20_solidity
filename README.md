@@ -70,6 +70,8 @@ The steps for this homework are divided into the following sections:
 
 3. Click the Deploy button to deploy your smart contract, and then confirm that it successfully deployed.
 
+![COMPILED](<./Images/Screenshot 2024-01-19 171457.png>)
+
 #### Step 3: Interact with Your Deployed Smart Contract
 
 Now that your contract is deployed, it’s time to test its functionality! After each step, capture a screenshot of the execution, and then save it in a folder named `Execution_Results`. You’ll share this folder with your final submission.
@@ -88,15 +90,18 @@ To interact with your deployed smart contract, complete the following steps:
 2. Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the `contractBalance` function to verify that the funds were added to your contract:
 
     * Transaction 1: Send 1 ether as wei.
+    ![1_ETHER](<./Images/Screenshot 2024-01-19 170538.png>)
 
     * Transaction 2: Send 10 ether as wei.
+    ![10_ETHER](<./Images/Screenshot 2024-01-19 170623.png>)
 
     * Transaction 3: Send 5 ether.
+    ![5_ETHER](<./Images/Screenshot 2024-01-19 170707.png>)
 
     > **Note** Remembering how to convert ether to wei and vice versa can be challenging. So, you can use a website like [Ethereum Unit Converter](https://eth-converter.com/) to ease doing the conversion.
 
 3. Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality by withdrawing 5 ether into `accountOne` and 10 ether into `accountTwo`. After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. Also, use the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
-
+![WITHDRAW](<Screenshot 2024-01-19 170831.png>)
 ---
 
 ### Submission
